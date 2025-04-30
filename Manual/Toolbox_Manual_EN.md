@@ -26,7 +26,7 @@ Inspired by Mutable Instruments' "Shades", "Links", and "Kinks", this module add
 - **Format**: Eurorack  
 - **Width**: 16 HP  
 - **Depth**: 25 mm  
-- **Power Consumption**: +12V: 90mA / -12V: 90mA  
+- **Power Consumption**: +12V: 160mA / -12V: 160mA  
 
 > **IMPORTANT**: Connect the ribbon cable with the red stripe aligned to -12V.  
 > Incorrect connection can permanently damage the module.  

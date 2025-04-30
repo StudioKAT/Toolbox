@@ -43,7 +43,7 @@ Key features include:
 ## 仕様 / Spec
 - Format: Eurorack
 - Function: Multi tools
-- Current needs: +12V: 90mA, -12V: 90mA
+- Current needs: +12V: 160mA, -12V: 160mA
 - Width: 16 HP
 - Depth: 25mm (including power connector)
 
