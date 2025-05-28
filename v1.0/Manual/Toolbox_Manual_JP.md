@@ -1,6 +1,6 @@
 # Toolbox マニュアル（日本語）
 
-![Toolbox Front](../Images/Toolbox_Front.jpeg)
+![Toolbox Front](../Images/Toolbox_Front.jpg)
 
 ## 概要
 
@@ -102,4 +102,4 @@ Mutable Instruments の「Shades」「Links」「Kinks」をベースに、独�
 
 ## 更新履歴
 
-- `2025-04-24`：v1.0 リリース  
+- `2025-05-28`：v1.0 リリース  

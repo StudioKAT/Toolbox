@@ -1,5 +1,6 @@
 # Toolbox
-![Toolbox Front](v1.0/Images/Toolbox_Front.jpeg)
+
+![Toolbox Front](v1.0/Images/Toolbox_Front.jpg)
 
 ## 概要 / Overview
 
@@ -51,7 +52,7 @@ Key features include:
 ## 販売 / Sales
 
 StudioKATオフィシャルショップで販売しています。(日本国内限定)  
-https://www.studiokat.jp/
+https://www.studiokat.jp/items/106541624
 
 
 ## ライセンス / License
@@ -70,4 +71,4 @@ This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 Int
 
 ## 更新履歴 / Changelog
 
-- `2025-04-24` v1.0 Released version 1.0  
+- `2025-05-28` v1.0 Released 

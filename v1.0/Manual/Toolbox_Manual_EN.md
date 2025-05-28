@@ -1,6 +1,6 @@
 # Toolbox Manual (English)
 
-![Toolbox Front](../Images/Toolbox_Front.jpeg)
+![Toolbox Front](../Images/Toolbox_Front.jpg)
 
 ## Overview
 
@@ -101,4 +101,4 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 ## Changelog
 
-- `2025-04-24`: v1.0 Released  
+- `2025-05-28`: v1.0 Released  
