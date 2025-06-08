@@ -1,6 +1,6 @@
 # Toolbox
 
-![Toolbox Front](v1.0/Images/Toolbox_Front.jpg)
+![Toolbox Front](Images/Toolbox_Front.jpg)
 
 ## 概要 / Overview
 

@@ -1,6 +1,6 @@
 # Toolbox マニュアル（日本語）
 
-![Toolbox Front](../Images/Toolbox_Front.jpg)
+![Toolbox Front](../../Images/Toolbox_Front.jpg)
 
 ## 概要
 
@@ -36,7 +36,7 @@ Mutable Instruments の「Shades」「Links」「Kinks」をベースに、独�
 
 ## 各部の機能
 
-![explanation](../Images/Toolbox_Ex.jpg)
+![explanation](../../Images/Toolbox_Ex.jpg)
 
 1. **Attenuator / Offset / Mixer**  
    4チャンネルのCV／オーディオ信号を処理できるミキサー・アッテネーターです。  

@@ -1,6 +1,6 @@
 # Toolbox Manual (English)
 
-![Toolbox Front](../Images/Toolbox_Front.jpg)
+![Toolbox Front](../../Images/Toolbox_Front.jpg)
 
 ## Overview
 
@@ -36,7 +36,7 @@ Inspired by Mutable Instruments' "Shades", "Links", and "Kinks", this module add
 
 ## Functional Sections
 
-![explanation](../Images/Toolbox_Ex.jpg)
+![explanation](../../Images/Toolbox_Ex.jpg)
 
 1. **Attenuator / Offset / Mixer**  
    4-channel audio/CV mixer and attenuator section.  
