@@ -1,6 +1,6 @@
 # Toolbox
 
-![Toolbox Front](Images/Toolbox_Front.jpg)
+![Toolbox Front](Images/Toolbox_Front_v2.1.jpeg)
 
 ## 概要 / Overview
 
@@ -44,7 +44,7 @@ Key features include:
 ## 仕様 / Spec
 - Format: Eurorack
 - Function: Multi tools
-- Current needs: +12V: 160mA, -12V: 160mA
+- Current needs: +12V: 130mA, -12V: 130mA
 - Width: 16 HP
 - Depth: 25mm (including power connector)
 
@@ -72,3 +72,5 @@ This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 Int
 ## 更新履歴 / Changelog
 
 - `2025-05-28` v1.0 Released 
+- `2025-07-31` v2.1 Released  
+オペアンプ変更、ホワイトノイズ切り替え機能追加、リファレンス電源回路変更

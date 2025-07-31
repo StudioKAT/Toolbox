@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "e7425001-019f-4fe8-a183-327e17dee003")
 	(paper "A4")
 	(title_block
@@ -93,6 +93,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(symbol
@@ -4258,6 +4259,10 @@
 	(sheet
 		(at 36.83 73.66)
 		(size 31.75 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4286,7 +4291,7 @@
 			)
 		)
 		(instances
-			(project "Toolbox_1.3"
+			(project "Toolbox_v1.0"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(page "3")
 				)
@@ -4296,6 +4301,10 @@
 	(sheet
 		(at 36.83 44.45)
 		(size 31.75 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4324,7 +4333,7 @@
 			)
 		)
 		(instances
-			(project "Toolbox_1.3"
+			(project "Toolbox_v1.0"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(page "2")
 				)
@@ -4334,6 +4343,10 @@
 	(sheet
 		(at 114.3 102.87)
 		(size 30.48 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4362,7 +4375,7 @@
 			)
 		)
 		(instances
-			(project "Toolbox_1.3"
+			(project "Toolbox_v1.0"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(page "7")
 				)
@@ -4372,6 +4385,10 @@
 	(sheet
 		(at 114.3 73.66)
 		(size 30.48 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4400,7 +4417,7 @@
 			)
 		)
 		(instances
-			(project "Toolbox_1.3"
+			(project "Toolbox_v1.0"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(page "6")
 				)
@@ -4410,6 +4427,10 @@
 	(sheet
 		(at 36.83 102.87)
 		(size 31.75 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4438,7 +4459,7 @@
 			)
 		)
 		(instances
-			(project "Toolbox_1.3"
+			(project "Toolbox_v1.0"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(page "4")
 				)
@@ -4448,6 +4469,10 @@
 	(sheet
 		(at 76.2 44.45)
 		(size 30.48 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4476,7 +4501,7 @@
 			)
 		)
 		(instances
-			(project "Toolbox_1.3"
+			(project "Toolbox_v1.0"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(page "8")
 				)
@@ -4486,6 +4511,10 @@
 	(sheet
 		(at 114.3 44.45)
 		(size 30.48 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4514,7 +4543,7 @@
 			)
 		)
 		(instances
-			(project "Toolbox_1.3"
+			(project "Toolbox_v1.0"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(page "5")
 				)
@@ -4524,6 +4553,10 @@
 	(sheet
 		(at 76.2 73.66)
 		(size 30.48 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4552,7 +4585,7 @@
 			)
 		)
 		(instances
-			(project "Toolbox_1.3"
+			(project "Toolbox_v1.0"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(page "9")
 				)
@@ -4564,4 +4597,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

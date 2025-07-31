@@ -126,7 +126,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.1,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -189,8 +189,8 @@
       ],
       "track_widths": [
         0.0,
-        0.3,
         0.4,
+        0.6,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -247,6 +247,10 @@
       [
         "pin_not_driven|736600|596900|49ad420f-27d5-4afe-af86-6b77e805c636|00000000-0000-0000-0000-000000000000|/e7425001-019f-4fe8-a183-327e17dee003/7e02b02b-85c0-483b-9d87-05f3a60cc7c4|/e7425001-019f-4fe8-a183-327e17dee003/7e02b02b-85c0-483b-9d87-05f3a60cc7c4|",
         ""
+      ],
+      [
+        "pin_not_driven|774700|609600|11604148-33b2-4313-9320-1667de78424f|00000000-0000-0000-0000-000000000000|/e7425001-019f-4fe8-a183-327e17dee003/7e02b02b-85c0-483b-9d87-05f3a60cc7c4|/e7425001-019f-4fe8-a183-327e17dee003/7e02b02b-85c0-483b-9d87-05f3a60cc7c4|",
+        "ホワイトノイズ用"
       ]
     ],
     "meta": {
@@ -473,7 +477,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Toolbox_v1.0.kicad_pro",
+    "filename": "Toolbox_v2.1.kicad_pro",
     "version": 3
   },
   "net_settings": {
