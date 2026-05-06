@@ -1,12 +1,12 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "e7425001-019f-4fe8-a183-327e17dee003")
 	(paper "A4")
 	(title_block
 		(title "Toolbox")
-		(date "2025-07-31")
+		(date "2026-05-06")
 		(rev "2.1")
 		(company "StudioKAT")
 		(comment 1 "Inspired by Mutable Instruments Shades/Links/Kinks")
@@ -23,8 +23,12 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
 				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -33,6 +37,8 @@
 			)
 			(property "Value" "MountingHole_Pad"
 				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -41,47 +47,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "MountingHole_Pad_0_1"
@@ -120,7 +136,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GND1"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -131,17 +147,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND1"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -150,38 +172,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND1_0_1"
@@ -202,7 +232,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -221,7 +251,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -232,17 +262,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#FLG"
 				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "PWR_FLAG"
 				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -251,45 +287,53 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Special symbol for telling ERC where power comes from"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "flag power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "PWR_FLAG_0_0"
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1450,14 +1494,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 153.67 48.26 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05d910cc-2d57-48a3-9ecb-5320bd795829")
 		(property "Reference" "H1"
 			(at 157.48 46.9899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1467,6 +1515,8 @@
 		)
 		(property "Value" "Panel"
 			(at 157.48 49.5299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1476,36 +1526,42 @@
 		)
 		(property "Footprint" "kat_eurorack:Panel_16HP"
 			(at 153.67 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 153.67 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 153.67 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "aaa1ccd1-7401-4af1-9eb6-d50d6ad76c9b")
 		)
 		(instances
-			(project ""
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H1")
 					(unit 1)
@@ -1517,14 +1573,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 199.39 93.98 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "066c148b-2b75-4512-939e-00dc31714775")
 		(property "Reference" "H37"
 			(at 203.2 92.7099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1534,6 +1594,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 203.2 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1543,36 +1605,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 199.39 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 199.39 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 199.39 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "4e05599f-c27c-4847-963d-b65d2b5259f8")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H37")
 					(unit 1)
@@ -1584,14 +1652,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 245.11 63.5 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09c6f900-91e7-4426-b03b-6154bc052c0c")
 		(property "Reference" "H12"
 			(at 248.92 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,6 +1673,8 @@
 		)
 		(property "Value" "PH_SW"
 			(at 248.92 64.7699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1610,36 +1684,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_ToggleSwitch_5.1mm_Pad"
 			(at 245.11 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 245.11 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 245.11 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "74bd1e35-e224-4b40-a44d-b293c8ec5be0")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H12")
 					(unit 1)
@@ -1651,14 +1731,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 153.67 55.88 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c4a5f21-0aa6-4ff9-a3a8-95199c5d0523")
 		(property "Reference" "H2"
 			(at 157.48 54.6099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,6 +1752,8 @@
 		)
 		(property "Value" "PH_Pot"
 			(at 157.48 57.1499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,36 +1763,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_RK097_15mmKnob_BI_UNI_Pad"
 			(at 153.67 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 153.67 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 153.67 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "12b9fbf2-9fbf-4f5a-a0bc-b2cb906fcd4d")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H2")
 					(unit 1)
@@ -1718,14 +1810,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 229.87 116.84 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2152f39b-5ed6-4652-b5d8-cfa4c04be16f")
 		(property "Reference" "H63"
 			(at 233.68 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1735,6 +1831,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 233.68 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1744,36 +1842,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 229.87 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 229.87 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 229.87 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "6888e82e-90b1-4df6-9767-4329c82c39b9")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H63")
 					(unit 1)
@@ -1785,14 +1889,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 245.11 116.84 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21c8effe-0e1e-4cfd-89a7-8f8e18dbae8d")
 		(property "Reference" "H64"
 			(at 248.92 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,6 +1910,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 248.92 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,36 +1921,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 245.11 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 245.11 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 245.11 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "aa6fd200-535a-46ed-8bcf-43628fec4f23")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H64")
 					(unit 1)
@@ -1852,14 +1968,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 229.87 63.5 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "272c07cc-a7ae-42a6-85dc-5fa33aba8c0d")
 		(property "Reference" "H11"
 			(at 233.68 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,6 +1989,8 @@
 		)
 		(property "Value" "PH_SW"
 			(at 233.68 64.7699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,36 +2000,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_ToggleSwitch_5.1mm_Pad"
 			(at 229.87 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 229.87 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 229.87 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "49cfc4e2-9f0f-4801-bce5-cef814317b59")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H11")
 					(unit 1)
@@ -1919,14 +2047,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 229.87 109.22 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28dd9566-a6b5-44fc-a805-7814885a5ecb")
 		(property "Reference" "H55"
 			(at 233.68 107.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,6 +2068,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 233.68 110.4899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,36 +2079,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 229.87 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 229.87 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 229.87 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "a9989767-a829-4fee-ba34-49147c024b02")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H55")
 					(unit 1)
@@ -1986,14 +2126,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 260.35 109.22 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a2c1643-7291-484c-b8f5-348f017e1131")
 		(property "Reference" "H57"
 			(at 264.16 107.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2003,6 +2147,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 264.16 110.4899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2012,36 +2158,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 260.35 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 260.35 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 260.35 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "dc66ee9f-8dc5-4e8b-8eba-a68ec07240bb")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H57")
 					(unit 1)
@@ -2053,14 +2205,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 214.63 101.6 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b6ab2f2-5ace-47e2-8a4d-9c5ea8478a2e")
 		(property "Reference" "H46"
 			(at 218.44 100.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2070,6 +2226,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 218.44 102.8699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2079,36 +2237,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 214.63 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 214.63 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 214.63 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "381f0882-8a9a-4138-8950-b643d3bd9a0b")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H46")
 					(unit 1)
@@ -2120,14 +2284,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 229.87 93.98 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b9235f9-c182-43ad-93e2-28836c381bd7")
 		(property "Reference" "H39"
 			(at 233.68 92.7099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,6 +2305,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 233.68 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2146,36 +2316,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 229.87 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 229.87 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 229.87 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "936519ed-3d8a-49ec-a469-fc28bb3d5ea4")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H39")
 					(unit 1)
@@ -2187,14 +2363,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 214.63 86.36 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35ef0657-5469-40e4-96cc-21a977723351")
 		(property "Reference" "H30"
 			(at 218.44 85.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2204,6 +2384,8 @@
 		)
 		(property "Value" "PH_LED"
 			(at 218.44 87.6299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2213,36 +2395,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_LED_3.0mm_Pad"
 			(at 214.63 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 214.63 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 214.63 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "ecec486d-527b-4571-88f0-501dac33ff14")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H30")
 					(unit 1)
@@ -2254,14 +2442,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 199.39 109.22 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4000e8fc-9de4-4865-aada-9b57fbe8996d")
 		(property "Reference" "H53"
 			(at 203.2 107.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,6 +2463,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 203.2 110.4899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2280,36 +2474,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 199.39 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 199.39 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 199.39 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "36ff1298-938d-4c48-8c40-3a783b194859")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H53")
 					(unit 1)
@@ -2321,14 +2521,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 168.91 109.22 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "461f91a5-0a1f-4fa2-8e8d-18a4ab7b3239")
 		(property "Reference" "H51"
 			(at 172.72 107.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2338,6 +2542,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 172.72 110.4899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,36 +2553,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 168.91 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 168.91 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 168.91 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "ea610345-0d2a-4565-9ea3-b5e6b420a3d6")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H51")
 					(unit 1)
@@ -2388,14 +2600,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 260.35 116.84 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "478920e6-bfa2-464d-8712-47075b35a816")
 		(property "Reference" "H65"
 			(at 264.16 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,6 +2621,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 264.16 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,36 +2632,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 260.35 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 260.35 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 260.35 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "6a436911-55e9-46ce-9fd8-7927cdcdbcc8")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H65")
 					(unit 1)
@@ -2455,14 +2679,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 184.15 86.36 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a6d2a91-c667-41e1-b3e1-bf401709bb04")
 		(property "Reference" "H28"
 			(at 187.96 85.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,6 +2700,8 @@
 		)
 		(property "Value" "PH_LED"
 			(at 187.96 87.6299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2481,36 +2711,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_LED_3.0mm_Pad"
 			(at 184.15 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 184.15 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 184.15 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "54214a61-ed7c-4e62-9ac1-2071c8fa6725")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H28")
 					(unit 1)
@@ -2522,14 +2758,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 168.91 86.36 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a8c4f4c-6175-4888-bd0f-21c3a026cb3d")
 		(property "Reference" "H27"
 			(at 172.72 85.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2539,6 +2779,8 @@
 		)
 		(property "Value" "PH_LED"
 			(at 172.72 87.6299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,36 +2790,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_LED_3.0mm_Pad"
 			(at 168.91 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 168.91 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 168.91 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "e23b270c-188e-4849-bd37-365d16ce7be0")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H27")
 					(unit 1)
@@ -2589,14 +2837,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 153.67 93.98 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "526fcf23-a687-47fb-9fb5-1c1c7f199b25")
 		(property "Reference" "H34"
 			(at 157.48 92.7099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2606,6 +2858,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 157.48 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2615,36 +2869,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 153.67 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 153.67 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 153.67 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "1b3d05c6-2338-455a-8fe8-08af4b8f25b0")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H34")
 					(unit 1)
@@ -2656,14 +2916,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 184.15 63.5 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52c2e69f-7cb9-4b5c-9a42-40de8a8bf607")
 		(property "Reference" "H8"
 			(at 187.96 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,6 +2937,8 @@
 		)
 		(property "Value" "PH_SW"
 			(at 187.96 64.7699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2682,36 +2948,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_ToggleSwitch_5.1mm_Pad"
 			(at 184.15 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 184.15 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 184.15 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "36b96eac-776a-4e84-9179-5da3c310ca7e")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H8")
 					(unit 1)
@@ -2723,14 +2995,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 245.11 93.98 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a54cea8-4c52-4b56-b36a-c72d0e9343fb")
 		(property "Reference" "H40"
 			(at 248.92 92.7099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,6 +3016,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 248.92 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2749,36 +3027,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 245.11 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 245.11 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 245.11 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "74da54e8-e3c1-46ca-8047-6d038379ebd2")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H40")
 					(unit 1)
@@ -2790,14 +3074,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 229.87 78.74 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b8b52b4-f34b-4e8a-a157-bda5c2602d76")
 		(property "Reference" "H23"
 			(at 233.68 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2807,6 +3095,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 233.68 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,36 +3106,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 229.87 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 229.87 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 229.87 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "6dbd839f-7b4f-40f4-a1c9-21fdb6e528ff")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H23")
 					(unit 1)
@@ -2857,14 +3153,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 260.35 101.6 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cf33524-d2d7-4762-9770-b67937e7438f")
 		(property "Reference" "H49"
 			(at 264.16 100.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,6 +3174,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 264.16 102.8699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,36 +3185,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 260.35 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 260.35 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 260.35 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "c6f40498-4a22-432e-b41f-d5767e8ee389")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H49")
 					(unit 1)
@@ -2925,22 +3233,28 @@
 		(at 151.13 39.37 0)
 		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e116d2e-1bae-40c8-905c-d237602eddf3")
 		(property "Reference" "#PWR01"
 			(at 151.13 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND1"
 			(at 151.13 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,36 +3263,42 @@
 		)
 		(property "Footprint" ""
 			(at 151.13 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 151.13 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
 			(at 151.13 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "1b4b5629-8b72-4938-9d98-2faf17174c4d")
 		)
 		(instances
-			(project ""
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "#PWR01")
 					(unit 1)
@@ -2990,14 +3310,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 153.67 71.12 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fe86f82-632b-4c5c-80c3-0a8c5e4f78ae")
 		(property "Reference" "H14"
 			(at 157.48 69.8499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,6 +3331,8 @@
 		)
 		(property "Value" "PH_LED"
 			(at 157.48 72.3899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3016,36 +3342,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_LED_3.0mm_Pad"
 			(at 153.67 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 153.67 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 153.67 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "61b9861c-e5c8-4a90-a2ed-2f9f03dae4c1")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H14")
 					(unit 1)
@@ -3057,14 +3389,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 199.39 63.5 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6264635c-a86c-4d78-a786-ee2c7f5e6584")
 		(property "Reference" "H9"
 			(at 203.2 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,6 +3410,8 @@
 		)
 		(property "Value" "PH_SW"
 			(at 203.2 64.7699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,36 +3421,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_ToggleSwitch_5.1mm_Pad"
 			(at 199.39 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 199.39 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 199.39 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "a0dde6b4-6459-49ea-bac2-60b599274e24")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H9")
 					(unit 1)
@@ -3124,14 +3468,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 168.91 93.98 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "646fc966-8085-4653-a88e-d3b48450f92c")
 		(property "Reference" "H35"
 			(at 172.72 92.7099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3141,6 +3489,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 172.72 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3150,36 +3500,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 168.91 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 168.91 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 168.91 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "9cc65134-a019-430d-8964-cb0a18364789")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H35")
 					(unit 1)
@@ -3191,14 +3547,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 229.87 101.6 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67d0e348-a452-4bbc-afc6-f3d021bb4653")
 		(property "Reference" "H47"
 			(at 233.68 100.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3208,6 +3568,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 233.68 102.8699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3217,36 +3579,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 229.87 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 229.87 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 229.87 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "334451ec-6682-43d6-aae4-e00e1b63bf7f")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H47")
 					(unit 1)
@@ -3258,14 +3626,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 168.91 55.88 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68957e8f-c966-4640-b6e9-8623a584d918")
 		(property "Reference" "H3"
 			(at 172.72 54.6099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3275,6 +3647,8 @@
 		)
 		(property "Value" "PH_Pot"
 			(at 172.72 57.1499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3284,36 +3658,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_RK097_15mmKnob_BI_UNI_Pad"
 			(at 168.91 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 168.91 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 168.91 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "11209c02-73df-4f43-acad-1a2d034c7de2")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H3")
 					(unit 1)
@@ -3325,14 +3705,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 168.91 78.74 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c90cd67-e5f1-4b89-aace-020060e2d219")
 		(property "Reference" "H19"
 			(at 172.72 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3342,6 +3726,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 172.72 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3351,36 +3737,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 168.91 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 168.91 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 168.91 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "bc04cd24-aa3a-463a-8190-005f3546d250")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H19")
 					(unit 1)
@@ -3392,14 +3784,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 214.63 63.5 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72d318c8-18c8-445e-9f1c-64bdbcddd7cf")
 		(property "Reference" "H10"
 			(at 218.44 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3409,6 +3805,8 @@
 		)
 		(property "Value" "PH_SW"
 			(at 218.44 64.7699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3418,36 +3816,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_ToggleSwitch_5.1mm_Pad"
 			(at 214.63 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 214.63 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 214.63 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "199298ef-d0d8-42c3-a095-0288992291e7")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H10")
 					(unit 1)
@@ -3459,14 +3863,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 214.63 93.98 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c71c690-036c-4280-9666-27976cceff1c")
 		(property "Reference" "H38"
 			(at 218.44 92.7099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3476,6 +3884,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 218.44 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3485,36 +3895,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 214.63 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 214.63 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 214.63 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "4cbca0c0-f31d-4dbd-a9a8-d9cdffeae6b3")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H38")
 					(unit 1)
@@ -3526,14 +3942,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 214.63 78.74 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e99d127-8dc4-4fad-9bde-fc0fcf940d69")
 		(property "Reference" "H22"
 			(at 218.44 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3543,6 +3963,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 218.44 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,36 +3974,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 214.63 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 214.63 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 214.63 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "55ac5df7-67a8-4cc6-91b6-6897fca2bd49")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H22")
 					(unit 1)
@@ -3593,14 +4021,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 153.67 116.84 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f42e186-5096-4093-81c4-6de05178e648")
 		(property "Reference" "H58"
 			(at 157.48 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3610,6 +4042,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 157.48 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3619,36 +4053,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 153.67 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 153.67 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 153.67 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "9f0b9417-b777-4b26-b35e-8c9bea198e2b")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H58")
 					(unit 1)
@@ -3660,14 +4100,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 153.67 86.36 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80b43bd4-56cc-45ed-b2f7-79b84bfda209")
 		(property "Reference" "H26"
 			(at 157.48 85.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3677,6 +4121,8 @@
 		)
 		(property "Value" "PH_LED"
 			(at 157.48 87.6299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3686,36 +4132,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_LED_3.0mm_Pad"
 			(at 153.67 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 153.67 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 153.67 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "977e7d9e-0b81-4e02-abf9-b3347d534de6")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H26")
 					(unit 1)
@@ -3727,14 +4179,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 184.15 55.88 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81fbfc9f-0b41-4f22-8bcd-fbc5141d7313")
 		(property "Reference" "H4"
 			(at 187.96 54.6099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3744,6 +4200,8 @@
 		)
 		(property "Value" "PH_Pot"
 			(at 187.96 57.1499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3753,36 +4211,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_RK097_15mmKnob_BI_UNI_Pad"
 			(at 184.15 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 184.15 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 184.15 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "80470023-10a7-48c6-8e1d-dc658162e680")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H4")
 					(unit 1)
@@ -3794,14 +4258,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 260.35 86.36 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90376b8b-fa99-40d5-abb1-dc58c3c49197")
 		(property "Reference" "H33"
 			(at 264.16 85.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3811,6 +4279,8 @@
 		)
 		(property "Value" "PH_LED"
 			(at 264.16 87.6299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,36 +4290,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_LED_3.0mm_Pad"
 			(at 260.35 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 260.35 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 260.35 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "7fca7c5f-b842-4605-b345-3e1444bc0421")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H33")
 					(unit 1)
@@ -3861,14 +4337,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 199.39 116.84 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "920f977f-b5f3-43c6-8661-d9c6353dd24e")
 		(property "Reference" "H61"
 			(at 203.2 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3878,6 +4358,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 203.2 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3887,36 +4369,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 199.39 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 199.39 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 199.39 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "40232cbd-7f9c-4430-8b95-2cced90bb9d9")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H61")
 					(unit 1)
@@ -3928,14 +4416,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 260.35 78.74 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "931c2271-1b7b-4763-ac70-6823cf57a809")
 		(property "Reference" "H25"
 			(at 264.16 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3945,6 +4437,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 264.16 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,36 +4448,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 260.35 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 260.35 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 260.35 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "421aedda-6185-418c-be52-17c9409bb3a8")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H25")
 					(unit 1)
@@ -3995,14 +4495,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 168.91 101.6 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "959ceee4-5b4b-42a9-96a6-4939417a248d")
 		(property "Reference" "H43"
 			(at 172.72 100.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4012,6 +4516,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 172.72 102.8699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4021,36 +4527,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 168.91 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 168.91 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 168.91 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "fff0d832-481a-45ee-8595-1aaee1c91c19")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H43")
 					(unit 1)
@@ -4062,14 +4574,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 153.67 63.5 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ae83be9-0c23-44cc-8cdf-df06d87d58f5")
 		(property "Reference" "H6"
 			(at 157.48 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4079,6 +4595,8 @@
 		)
 		(property "Value" "PH_SW"
 			(at 157.48 64.7699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4088,36 +4606,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_ToggleSwitch_5.1mm_Pad"
 			(at 153.67 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 153.67 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 153.67 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "55d6b387-3ee4-4f51-a11f-49042b21a436")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H6")
 					(unit 1)
@@ -4129,14 +4653,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 245.11 109.22 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a08a8909-b00b-48e8-8d8b-58653e23c91c")
 		(property "Reference" "H56"
 			(at 248.92 107.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4146,6 +4674,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 248.92 110.4899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4155,36 +4685,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 245.11 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 245.11 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 245.11 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "88940fa1-b980-4e02-bbc9-86134991359b")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H56")
 					(unit 1)
@@ -4196,14 +4732,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 168.91 63.5 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a467b5f1-e6a1-4bbb-b02d-5cf944ce273e")
 		(property "Reference" "H7"
 			(at 172.72 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4213,6 +4753,8 @@
 		)
 		(property "Value" "PH_SW"
 			(at 172.72 64.7699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4222,36 +4764,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_ToggleSwitch_5.1mm_Pad"
 			(at 168.91 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 168.91 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 168.91 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "62bc400e-dc2a-409f-aa3c-f096b5789d59")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H7")
 					(unit 1)
@@ -4263,14 +4811,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 199.39 101.6 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a700535a-fae3-4775-ac6c-c02158502c89")
 		(property "Reference" "H45"
 			(at 203.2 100.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4280,6 +4832,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 203.2 102.8699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,36 +4843,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 199.39 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 199.39 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 199.39 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "34538103-326c-4b2a-ad93-1c0538b430de")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H45")
 					(unit 1)
@@ -4330,14 +4890,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 184.15 116.84 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac4522c5-7062-4a23-b693-ccbff88850f5")
 		(property "Reference" "H60"
 			(at 187.96 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4347,6 +4911,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 187.96 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4356,36 +4922,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 184.15 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 184.15 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 184.15 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "6fdbe76a-723f-407c-a104-71c1ac51f52e")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H60")
 					(unit 1)
@@ -4397,14 +4969,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 214.63 109.22 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adec2896-b4d3-42f8-a280-8ebaf2d8ea25")
 		(property "Reference" "H54"
 			(at 218.44 107.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4414,6 +4990,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 218.44 110.4899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4423,36 +5001,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 214.63 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 214.63 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 214.63 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "ed32c0ca-e5c6-4628-a8de-2f794c258bc0")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H54")
 					(unit 1)
@@ -4464,14 +5048,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 199.39 55.88 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae72b8a5-7a1a-4793-b2b4-12e9d4cb250f")
 		(property "Reference" "H5"
 			(at 203.2 54.6099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,6 +5069,8 @@
 		)
 		(property "Value" "PH_Pot"
 			(at 203.2 57.1499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,36 +5080,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_RK097_15mmKnob_BI_UNI_Pad"
 			(at 199.39 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 199.39 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 199.39 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "45a5ac46-11e7-40d6-a63e-e24197a9282b")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H5")
 					(unit 1)
@@ -4531,14 +5127,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 199.39 71.12 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae973926-621d-44de-acba-d97926d181e3")
 		(property "Reference" "H17"
 			(at 203.2 69.8499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4548,6 +5148,8 @@
 		)
 		(property "Value" "PH_LED"
 			(at 203.2 72.3899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4557,36 +5159,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_LED_3.0mm_Pad"
 			(at 199.39 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 199.39 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 199.39 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "6c9bb7f1-73e1-4f87-9bc2-2650bcd5d8f0")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H17")
 					(unit 1)
@@ -4598,14 +5206,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 199.39 78.74 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af2fcc7c-f458-45f2-869e-a343bd9bdf00")
 		(property "Reference" "H21"
 			(at 203.2 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,6 +5227,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 203.2 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4624,36 +5238,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 199.39 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 199.39 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 199.39 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "e72f3340-f6bc-48fe-a5cb-d62577fbd833")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H21")
 					(unit 1)
@@ -4665,14 +5285,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 168.91 71.12 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6472dfa-9f1c-4d47-91a1-edbe1d3c708c")
 		(property "Reference" "H15"
 			(at 172.72 69.8499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4682,6 +5306,8 @@
 		)
 		(property "Value" "PH_LED"
 			(at 172.72 72.3899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,36 +5317,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_LED_3.0mm_Pad"
 			(at 168.91 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 168.91 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 168.91 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "f8121d63-4dec-451b-af84-a4a4fa8786ec")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H15")
 					(unit 1)
@@ -4732,14 +5364,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 184.15 93.98 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb70ff59-e8c8-4d42-9a6f-4d121a8edbd1")
 		(property "Reference" "H36"
 			(at 187.96 92.7099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4749,6 +5385,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 187.96 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4758,36 +5396,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 184.15 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 184.15 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 184.15 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "4e104a9b-6b4c-4177-9152-a4ec3678302f")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H36")
 					(unit 1)
@@ -4799,14 +5443,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 168.91 116.84 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c11c8a29-a368-4172-b694-07cb68d80252")
 		(property "Reference" "H59"
 			(at 172.72 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4816,6 +5464,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 172.72 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,36 +5475,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 168.91 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 168.91 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 168.91 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "ce6309b0-3526-4e02-b9b2-966a703c7dfb")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H59")
 					(unit 1)
@@ -4866,14 +5522,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 260.35 63.5 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3a888fe-4c60-433e-b290-d970f9b0e967")
 		(property "Reference" "H13"
 			(at 264.16 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4883,6 +5543,8 @@
 		)
 		(property "Value" "PH_SW"
 			(at 264.16 64.7699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4892,36 +5554,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_ToggleSwitch_5.1mm_Pad"
 			(at 260.35 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 260.35 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 260.35 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "12671d4c-2712-463b-ab14-45f5f3daa038")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H13")
 					(unit 1)
@@ -4933,14 +5601,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 184.15 101.6 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d096aafb-bcf8-4043-8e25-b92f84141559")
 		(property "Reference" "H44"
 			(at 187.96 100.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,6 +5622,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 187.96 102.8699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4959,36 +5633,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 184.15 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 184.15 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 184.15 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "fb375096-b352-4537-b746-2d3d05832a29")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H44")
 					(unit 1)
@@ -5000,14 +5680,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 260.35 93.98 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d304f3b7-ab14-48df-8935-7a07746d64ee")
 		(property "Reference" "H41"
 			(at 264.16 92.7099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5017,6 +5701,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 264.16 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5026,36 +5712,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 260.35 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 260.35 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 260.35 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "0f6fd732-59ca-4e75-86f0-e1c2e956c248")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H41")
 					(unit 1)
@@ -5067,14 +5759,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 214.63 116.84 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4f12b1b-9831-4869-af6f-551495eb4c51")
 		(property "Reference" "H62"
 			(at 218.44 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5084,6 +5780,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 218.44 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5093,36 +5791,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 214.63 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 214.63 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 214.63 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "c69a481a-ed3b-4604-b81c-1863fc8f0e2b")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H62")
 					(unit 1)
@@ -5134,14 +5838,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 184.15 109.22 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6075ee5-cbb8-4f8b-b2c3-ea0c36dc7748")
 		(property "Reference" "H52"
 			(at 187.96 107.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5151,6 +5859,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 187.96 110.4899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5160,36 +5870,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 184.15 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 184.15 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 184.15 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "3a582fe6-8b01-427f-8898-727a26ec6677")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H52")
 					(unit 1)
@@ -5201,14 +5917,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 153.67 101.6 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d95af1af-5cce-4eb2-9284-80a62038b4c2")
 		(property "Reference" "H42"
 			(at 157.48 100.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5218,6 +5938,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 157.48 102.8699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,36 +5949,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 153.67 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 153.67 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 153.67 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "c9850a67-be5e-46ed-9e31-8ce4b9424e9d")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H42")
 					(unit 1)
@@ -5268,14 +5996,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 153.67 109.22 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcf50801-cafb-49ee-8c74-be2f74d26cd8")
 		(property "Reference" "H50"
 			(at 157.48 107.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5285,6 +6017,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 157.48 110.4899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5294,36 +6028,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 153.67 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 153.67 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 153.67 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "01a9a83c-6fa2-4a3c-b944-cc8a2fdef48e")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H50")
 					(unit 1)
@@ -5335,14 +6075,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 245.11 86.36 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e40fee70-6a7f-441b-a110-84374785f4cc")
 		(property "Reference" "H32"
 			(at 248.92 85.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5352,6 +6096,8 @@
 		)
 		(property "Value" "PH_LED"
 			(at 248.92 87.6299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5361,36 +6107,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_LED_3.0mm_Pad"
 			(at 245.11 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 245.11 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 245.11 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "fa21615a-3abf-4772-a759-8a4435109bef")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H32")
 					(unit 1)
@@ -5402,14 +6154,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 199.39 86.36 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5ded0f3-430a-4e5f-90f0-8b106de33541")
 		(property "Reference" "H29"
 			(at 203.2 85.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5419,6 +6175,8 @@
 		)
 		(property "Value" "PH_LED"
 			(at 203.2 87.6299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5428,36 +6186,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_LED_3.0mm_Pad"
 			(at 199.39 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 199.39 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 199.39 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "a65b3cf7-57fa-4269-8aaa-a4121972d522")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H29")
 					(unit 1)
@@ -5469,14 +6233,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 184.15 71.12 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebe9bbb3-b530-4f79-a74d-e2099210a79e")
 		(property "Reference" "H16"
 			(at 187.96 69.8499 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5486,6 +6254,8 @@
 		)
 		(property "Value" "PH_LED"
 			(at 187.96 72.3899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5495,36 +6265,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_LED_3.0mm_Pad"
 			(at 184.15 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 184.15 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 184.15 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "da6eaed3-4156-4c1f-8318-a914f27c3a26")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H16")
 					(unit 1)
@@ -5536,14 +6312,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 184.15 78.74 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec73c636-7ead-485c-b12f-e45674c8708b")
 		(property "Reference" "H20"
 			(at 187.96 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5553,6 +6333,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 187.96 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5562,36 +6344,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 184.15 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 184.15 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 184.15 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "4b69de2d-ccf6-4198-ac34-6ec309e2601e")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H20")
 					(unit 1)
@@ -5603,14 +6391,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 153.67 78.74 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eda90498-23c9-458e-83ec-6ab14d473d3a")
 		(property "Reference" "H18"
 			(at 157.48 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,6 +6412,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 157.48 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5629,36 +6423,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 153.67 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 153.67 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 153.67 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "05a3622a-513b-401b-85e8-94eb9b23e006")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H18")
 					(unit 1)
@@ -5670,14 +6470,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 245.11 101.6 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8325348-2bca-48d1-86f6-115ee7d6d61d")
 		(property "Reference" "H48"
 			(at 248.92 100.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5687,6 +6491,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 248.92 102.8699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,36 +6502,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 245.11 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 245.11 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 245.11 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "61db315e-2d5b-48fb-84ca-a263b92d5aab")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H48")
 					(unit 1)
@@ -5737,14 +6549,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 245.11 78.74 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb28dd00-59d6-4d66-9b3e-e6a476a92898")
 		(property "Reference" "H24"
 			(at 248.92 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,6 +6570,8 @@
 		)
 		(property "Value" "PH_Audio"
 			(at 248.92 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,36 +6581,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_AudioJack_3.5mm_Pad"
 			(at 245.11 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 245.11 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 245.11 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "155e6720-140a-42d1-83d2-6c6ec8d58d1f")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H24")
 					(unit 1)
@@ -5804,23 +6628,29 @@
 		(lib_id "power:PWR_FLAG")
 		(at 166.37 39.37 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe88fb11-4618-45a6-9205-903b8fcc6b8c")
 		(property "Reference" "#FLG01"
 			(at 166.37 37.465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "PWR_FLAG"
 			(at 166.37 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5829,36 +6659,42 @@
 		)
 		(property "Footprint" ""
 			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "e85dc66e-4be2-4c90-a9a6-891cbaba821b")
 		)
 		(instances
-			(project ""
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "#FLG01")
 					(unit 1)
@@ -5870,14 +6706,18 @@
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 229.87 86.36 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffbbb808-7df9-45d9-ab8b-391324f4e156")
 		(property "Reference" "H31"
 			(at 233.68 85.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5887,6 +6727,8 @@
 		)
 		(property "Value" "PH_LED"
 			(at 233.68 87.6299 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5896,36 +6738,42 @@
 		)
 		(property "Footprint" "kat_eurorack:PH_LED_3.0mm_Pad"
 			(at 229.87 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 229.87 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 229.87 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "cca5ef40-7861-4e2e-a87a-062821effb6c")
 		)
 		(instances
-			(project "Toolbox_v2.0"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(reference "H31")
 					(unit 1)
@@ -5946,11 +6794,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "22f0151e-6052-411c-9711-8de2bccd6a4f")
 		(property "Sheetname" "Shades"
 			(at 36.83 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5960,6 +6810,8 @@
 		)
 		(property "Sheetfile" "Shades.kicad_sch"
 			(at 36.83 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5968,7 +6820,7 @@
 			)
 		)
 		(instances
-			(project "Toolbox_v2.0_2"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(page "3")
 				)
@@ -5988,11 +6840,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "441035fb-92ea-4428-9b45-671f81d58099")
 		(property "Sheetname" "Power"
 			(at 36.83 43.7384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6002,6 +6856,8 @@
 		)
 		(property "Sheetfile" "Power.kicad_sch"
 			(at 36.83 66.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6010,7 +6866,7 @@
 			)
 		)
 		(instances
-			(project "Toolbox_v2.0_2"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(page "2")
 				)
@@ -6030,11 +6886,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "7e02b02b-85c0-483b-9d87-05f3a60cc7c4")
 		(property "Sheetname" "Kinks_3"
 			(at 114.3 102.1584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6044,6 +6902,8 @@
 		)
 		(property "Sheetfile" "Kinks_3.kicad_sch"
 			(at 114.3 126.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6052,7 +6912,7 @@
 			)
 		)
 		(instances
-			(project "Toolbox_v2.0_2"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(page "7")
 				)
@@ -6072,11 +6932,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "8b736f3f-6587-48da-a243-a3526b0f68d8")
 		(property "Sheetname" "Kinks_2"
 			(at 114.3 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6086,6 +6948,8 @@
 		)
 		(property "Sheetfile" "Kinks_2.kicad_sch"
 			(at 114.3 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6094,7 +6958,7 @@
 			)
 		)
 		(instances
-			(project "Toolbox_v2.0_2"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(page "6")
 				)
@@ -6114,11 +6978,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ab27c679-977d-47c3-b479-73a3a245b78b")
 		(property "Sheetname" "Links"
 			(at 36.83 102.1584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6128,6 +6994,8 @@
 		)
 		(property "Sheetfile" "Links.kicad_sch"
 			(at 36.83 126.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6136,7 +7004,7 @@
 			)
 		)
 		(instances
-			(project "Toolbox_v2.0_2"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(page "4")
 				)
@@ -6156,11 +7024,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "cf5c8384-8fab-439e-afb9-5ba89def4136")
 		(property "Sheetname" "5V Offset"
 			(at 76.2 43.7384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6170,6 +7040,8 @@
 		)
 		(property "Sheetfile" "5V_Offset.kicad_sch"
 			(at 76.2 66.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6178,7 +7050,7 @@
 			)
 		)
 		(instances
-			(project "Toolbox_v2.0_2"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(page "8")
 				)
@@ -6198,11 +7070,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ddb72ba1-b36f-4f0a-9e3c-f6f63c49a80f")
 		(property "Sheetname" "Kinks_1"
 			(at 114.3 43.7384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6212,6 +7086,8 @@
 		)
 		(property "Sheetfile" "Kinks_1.kicad_sch"
 			(at 114.3 66.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6220,7 +7096,7 @@
 			)
 		)
 		(instances
-			(project "Toolbox_v2.0_2"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(page "5")
 				)
@@ -6240,11 +7116,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "faab66fd-6086-4fe1-9fec-abc8d15af328")
 		(property "Sheetname" "Voltage Doubler"
 			(at 76.2 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6254,6 +7132,8 @@
 		)
 		(property "Sheetfile" "Voltage_Doubler.kicad_sch"
 			(at 76.2 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6262,7 +7142,7 @@
 			)
 		)
 		(instances
-			(project "Toolbox_v2.0_2"
+			(project "Toolbox_v2.1"
 				(path "/e7425001-019f-4fe8-a183-327e17dee003"
 					(page "9")
 				)
